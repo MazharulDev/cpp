@@ -5,10 +5,6 @@ int main()
 {
     int x;
     cin >> x;
-    if(x%2==0){
-        cout << "Event\n";
-    }else{
-        cout << "ODD\n";
-    }
+    x%2==0 ? cout << "Even\n": cout<< "ODD\n";
     return 0;
 }
